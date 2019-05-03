@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/awesome-me/static/css/main.ee2bfe9e.chunk.css",
+    "main.js": "/awesome-me/static/js/main.bbfe0382.chunk.js",
+    "main.js.map": "/awesome-me/static/js/main.bbfe0382.chunk.js.map",
+    "runtime~main.js": "/awesome-me/static/js/runtime~main.a7e77889.js",
+    "runtime~main.js.map": "/awesome-me/static/js/runtime~main.a7e77889.js.map",
+    "static/css/2.582b25ec.chunk.css": "/awesome-me/static/css/2.582b25ec.chunk.css",
+    "static/js/2.4f55b22a.chunk.js": "/awesome-me/static/js/2.4f55b22a.chunk.js",
+    "static/js/2.4f55b22a.chunk.js.map": "/awesome-me/static/js/2.4f55b22a.chunk.js.map",
+    "index.html": "/awesome-me/index.html",
+    "precache-manifest.5df9cec43770976b776575f1c6e28fcb.js": "/awesome-me/precache-manifest.5df9cec43770976b776575f1c6e28fcb.js",
+    "service-worker.js": "/awesome-me/service-worker.js",
+    "static/css/2.582b25ec.chunk.css.map": "/awesome-me/static/css/2.582b25ec.chunk.css.map",
+    "static/css/main.ee2bfe9e.chunk.css.map": "/awesome-me/static/css/main.ee2bfe9e.chunk.css.map"
+  }
+}
