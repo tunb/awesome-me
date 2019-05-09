@@ -33,7 +33,7 @@ There are 11 tables in the chinook sample database.
 
 Summary: in this tutorial, you will learn various ways to show tables from an SQLite database by using SQLite command line shell program or by querying data from sqlite_master tables.
 
-```
+```sql
 SELECT 
     name
 FROM 
@@ -47,7 +47,7 @@ WHERE
  
 Summary: in this tutorial, you will learn about various ways to show the structure of a table in SQLite.
 
-```
+```sql
 SELECT
     sql 
 FROM 
@@ -60,7 +60,7 @@ WHERE
 
 Summary: in this tutorial, you will learn how to use SQLite SELECT statement to query data from a single table.
 
-```
+```sql
 SELECT
  1 + 1;
 
@@ -131,7 +131,7 @@ WHERE
 
 ## SQLite Modify data
 
-```
+```sql
 CREATE TABLE test_datatypes (
  id INTEGER PRIMARY KEY,
  val
