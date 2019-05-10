@@ -63,6 +63,29 @@ This sandbox compiler using **javascript** as primary language
 
 ## Example:
 ```javascript
+$native.log('log on your console')
+$native.info('log on your console')
+$native.error('log on your console')
+$native.image('https://www.belightsoft.com/products/imagetricks/img/core-image-filters@2x.jpg')
+
+console.log('log on result')
+console.log({ hello: 1, arrs: [1, 2, 3] })
+console.image('https://www.belightsoft.com/products/imagetricks/img/core-image-filters@2x.jpg')
+console.table([1, 2, 'hello'])
+console.table({ hello: 1, arrs: [1, 2, 3] })
+
+const value = new BigNumber('10000')
+
+fetch({
+  url: 'your-url',
+  method: 'GET'
+}).then((response) => {
+  const { data } = response
+  console.log(data)
+}).catch((err) => {
+  console.error(err.message)
+})
+
 // $KMeans 
 function KMeans () {
   const data = [
