@@ -5,7 +5,6 @@
   * Data Types: Supported data types
   * Functions: Global functions
 ## Testing API documents
-  * How to write unit test on deployed contract ?
   * Assert and Expect api
 
 ** Noted :** All injected function have "$" at a prefix
