@@ -254,7 +254,7 @@
         var natives = {};
         for (var _i = 0, nativesKeys_1 = nativesKeys; _i < nativesKeys_1.length; _i++) {
             var nativesKey = nativesKeys_1[_i];
-            natives[nativesKey] = arr2str_1(readFileSync_1("/libraries/node/" + nativesKey + ".js") || err_1("missing native '" + nativesKey + "'"));
+            natives[nativesKey] = arr2str_1(readFileSync_1("./libraries/node/" + nativesKey + ".js") || err_1("missing native '" + nativesKey + "'"));
         }
         natives["config"] = '\n{"target_defaults":{"cflags":[],"default_configuration":"Release","defines":[],"include_dirs":[],"libraries":[]},"variables":{"asan":0,"coverage":false,"debug_devtools":"node","force_dynamic_crt":0,"host_arch":"x64","icu_data_file":"icudt59l.dat","icu_data_in":"..\\\\..\\\\deps/icu-small\\\\source/data/in\\\\icudt59l.dat","icu_endianness":"l","icu_gyp_path":"tools/icu/icu-generic.gyp","icu_locales":"en,root","icu_path":"deps/icu-small","icu_small":true,"icu_ver_major":"59","node_byteorder":"little","node_enable_d8":false,"node_enable_v8_vtunejit":false,"node_install_npm":true,"node_module_version":57,"node_no_browser_globals":false,"node_prefix":"/usr/local","node_release_urlbase":"https://nodejs.org/download/release/","node_shared":false,"node_shared_cares":false,"node_shared_http_parser":false,"node_shared_libuv":false,"node_shared_openssl":false,"node_shared_zlib":false,"node_tag":"","node_use_bundled_v8":true,"node_use_dtrace":false,"node_use_etw":true,"node_use_lttng":false,"node_use_openssl":true,"node_use_perfctr":true,"node_use_v8_platform":true,"node_without_node_options":false,"openssl_fips":"","openssl_no_asm":0,"shlib_suffix":"so.57","target_arch":"x64","v8_enable_gdbjit":0,"v8_enable_i18n_support":1,"v8_enable_inspector":1,"v8_no_strict_aliasing":1,"v8_optimized_debug":0,"v8_promise_internal_field_count":1,"v8_random_seed":0,"v8_use_snapshot":true,"want_separate_host_toolset":0,"want_separate_host_toolset_mkpeephole":0}}'
             .replace(/"/g, "'");
@@ -829,7 +829,7 @@
                 NODE_REPL_HISTORY_FILE: '//'
                 // NODE_DEBUG: "repl,timer,stream,esm,module,net"
             },
-            execPath: "/libraries/node.js",
+            execPath: "./libraries/node.js",
             moduleLoadList: [],
             pid: 42,
             reallyExit: function (exitCode) {
