@@ -22,7 +22,7 @@
 'use strict';
 
 const Buffer = require('buffer').Buffer;
-const Transform = require('_stream_transform');
+const Transform = require('stream_transform');
 const binding = process.binding('zlib');
 const assert = require('assert').ok;
 const kMaxLength = require('buffer').kMaxLength;

@@ -113,7 +113,7 @@
       // directory which will be executed instead of Node's normal loading.
       process.nextTick(function() {
         perf.markMilestone(NODE_PERFORMANCE_MILESTONE_THIRD_PARTY_MAIN_START);
-        NativeModule.require('_third_party_main');
+        NativeModule.require('third_party_main');
         perf.markMilestone(NODE_PERFORMANCE_MILESTONE_THIRD_PARTY_MAIN_END);
       });
 

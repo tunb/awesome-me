@@ -21,12 +21,12 @@
 
 'use strict';
 
-const agent = require('_http_agent');
-const client = require('_http_client');
-const common = require('_http_common');
-const incoming = require('_http_incoming');
-const outgoing = require('_http_outgoing');
-const server = require('_http_server');
+const agent = require('http_agent');
+const client = require('http_client');
+const common = require('http_common');
+const incoming = require('http_incoming');
+const outgoing = require('http_outgoing');
+const server = require('http_server');
 
 const Server = server.Server;
 const ClientRequest = client.ClientRequest;

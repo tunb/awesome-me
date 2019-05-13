@@ -27,7 +27,7 @@
 
 module.exports = PassThrough;
 
-const Transform = require('_stream_transform');
+const Transform = require('stream_transform');
 const util = require('util');
 util.inherits(PassThrough, Transform);
 

@@ -26,7 +26,7 @@ internalUtil.assertCrypto();
 
 const assert = require('assert');
 const Buffer = require('buffer').Buffer;
-const common = require('_tls_common');
+const common = require('tls_common');
 const Connection = process.binding('crypto').Connection;
 const EventEmitter = require('events');
 const stream = require('stream');

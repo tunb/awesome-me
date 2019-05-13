@@ -25,7 +25,7 @@ const util = require('util');
 const net = require('net');
 const HTTPParser = process.binding('http_parser').HTTPParser;
 const assert = require('assert').ok;
-const common = require('_http_common');
+const common = require('http_common');
 const parsers = common.parsers;
 const freeParser = common.freeParser;
 const debug = common.debug;
@@ -33,7 +33,7 @@ const CRLF = common.CRLF;
 const continueExpression = common.continueExpression;
 const chunkExpression = common.chunkExpression;
 const httpSocketSetup = common.httpSocketSetup;
-const OutgoingMessage = require('_http_outgoing').OutgoingMessage;
+const OutgoingMessage = require('http_outgoing').OutgoingMessage;
 const { outHeadersKey, ondrain } = require('internal/http');
 
 const STATUS_CODES = {

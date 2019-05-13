@@ -252,12 +252,12 @@ exports.parseCertString = function parseCertString(s) {
 };
 
 // Public API
-exports.createSecureContext = require('_tls_common').createSecureContext;
-exports.SecureContext = require('_tls_common').SecureContext;
-exports.TLSSocket = require('_tls_wrap').TLSSocket;
-exports.Server = require('_tls_wrap').Server;
-exports.createServer = require('_tls_wrap').createServer;
-exports.connect = require('_tls_wrap').connect;
+exports.createSecureContext = require('tls_common').createSecureContext;
+exports.SecureContext = require('tls_common').SecureContext;
+exports.TLSSocket = require('tls_wrap').TLSSocket;
+exports.Server = require('tls_wrap').Server;
+exports.createServer = require('tls_wrap').createServer;
+exports.connect = require('tls_wrap').connect;
 
 // Deprecated: DEP0064
-exports.createSecurePair = require('_tls_legacy').createSecurePair;
+exports.createSecurePair = require('tls_legacy').createSecurePair;

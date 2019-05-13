@@ -27,7 +27,7 @@ const HTTPParser = binding.HTTPParser;
 
 const FreeList = require('internal/freelist');
 const ondrain = require('internal/http').ondrain;
-const incoming = require('_http_incoming');
+const incoming = require('http_incoming');
 const emitDestroy = require('async_hooks').emitDestroy;
 const IncomingMessage = incoming.IncomingMessage;
 const readStart = incoming.readStart;
