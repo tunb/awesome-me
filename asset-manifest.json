@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/awesome-me/static/css/main.31f48029.chunk.css",
-    "main.js": "/awesome-me/static/js/main.c430f25d.chunk.js",
+    "main.js": "/awesome-me/static/js/main.ee1d05c7.chunk.js",
     "runtime~main.js": "/awesome-me/static/js/runtime~main.a7e77889.js",
     "static/css/2.e172eb75.chunk.css": "/awesome-me/static/css/2.e172eb75.chunk.css",
     "static/js/2.7f0df631.chunk.js": "/awesome-me/static/js/2.7f0df631.chunk.js",
     "index.html": "/awesome-me/index.html",
-    "precache-manifest.9741b05be81b14dde17d3eb64e83c36e.js": "/awesome-me/precache-manifest.9741b05be81b14dde17d3eb64e83c36e.js",
+    "precache-manifest.6bb191d5823aeb0794146195f0ac9419.js": "/awesome-me/precache-manifest.6bb191d5823aeb0794146195f0ac9419.js",
     "service-worker.js": "/awesome-me/service-worker.js"
   }
 }
